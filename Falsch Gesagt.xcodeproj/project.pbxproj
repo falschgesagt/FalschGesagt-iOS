@@ -15,6 +15,8 @@
 		08A47AEC20D7DB35005F8599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08A47AEA20D7DB35005F8599 /* LaunchScreen.storyboard */; };
 		08A47AF720D7DB35005F8599 /* Falsch_GesagtTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A47AF620D7DB35005F8599 /* Falsch_GesagtTests.swift */; };
 		08A47B0220D7DB35005F8599 /* Falsch_GesagtUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A47B0120D7DB35005F8599 /* Falsch_GesagtUITests.swift */; };
+		08A47B1020D7E200005F8599 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A47B0F20D7E200005F8599 /* Quote.swift */; };
+		08A47B1220D7E6D2005F8599 /* BadButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08A47B1120D7E6D2005F8599 /* BadButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		08A47AFD20D7DB35005F8599 /* Falsch GesagtUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Falsch GesagtUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08A47B0120D7DB35005F8599 /* Falsch_GesagtUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Falsch_GesagtUITests.swift; sourceTree = "<group>"; };
 		08A47B0320D7DB35005F8599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A47B0F20D7E200005F8599 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		08A47B1120D7E6D2005F8599 /* BadButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 			children = (
 				08A47ADE20D7DB33005F8599 /* AppDelegate.swift */,
 				08A47AE020D7DB33005F8599 /* ViewController.swift */,
+				08A47B0F20D7E200005F8599 /* Quote.swift */,
+				08A47B1120D7E6D2005F8599 /* BadButton.swift */,
 				08A47AE220D7DB33005F8599 /* Main.storyboard */,
 				08A47AE820D7DB35005F8599 /* Assets.xcassets */,
 				08A47AEA20D7DB35005F8599 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08A47B1020D7E200005F8599 /* Quote.swift in Sources */,
 				08A47AE720D7DB33005F8599 /* Falsch_Gesagt.xcdatamodeld in Sources */,
 				08A47AE120D7DB33005F8599 /* ViewController.swift in Sources */,
+				08A47B1220D7E6D2005F8599 /* BadButton.swift in Sources */,
 				08A47ADF20D7DB33005F8599 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,6 +445,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVQT4YM28J;
 				INFOPLIST_FILE = "Falsch Gesagt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +464,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = EVQT4YM28J;
 				INFOPLIST_FILE = "Falsch Gesagt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
